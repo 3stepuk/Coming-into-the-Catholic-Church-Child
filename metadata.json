@@ -1,0 +1,6 @@
+{
+  "name": "Coming into the Catholic Church — Child Preparation",
+  "description": "A Catholic preparation catechism app for baptised children (aged 7+) preparing for First Confession, Reception into Full Communion, Confirmation, and First Holy Communion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
