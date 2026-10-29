@@ -7,6 +7,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "God Calls Me to Follow Jesus",
     purpose: "Jesus knows me, loves me and invites me to follow him in the full communion of his Catholic Church.",
     remember: "To follow Jesus and live the fullness of Catholic faith in his Church.",
+    rememberGaps: {
+      id: 'rem-1',
+      sentenceWithBlanks: "To [follow Jesus] and live the fullness of Catholic faith in [his Church].",
+      gaps: [
+        {
+          index: 0,
+          word: "follow Jesus",
+          options: ["follow Jesus", "follow the crowd", "follow our own rules", "follow only our conscience"],
+          hint: "The invitation is to him, not merely to a rule."
+        },
+        {
+          index: 1,
+          word: "his Church",
+          options: ["his Church", "a private religion", "the wider world", "a school"],
+          hint: "The body he founded."
+        },
+      ]
+    },
     teachingParagraphs: [
       "God made you because he loves you. You are made in his image and likeness, and your life matters to him. He wants you to know him, love him, serve him and be happy with him for ever in heaven.",
       "Jesus Christ knows you personally. He welcomed children, blessed them and told his followers not to stop them coming to him. He welcomes you, too. A disciple of Jesus listens to him, believes what he teaches, tries to follow him and asks for his help.",
@@ -48,6 +66,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "The One God: Father, Son and Holy Spirit",
     purpose: "There is one God in three divine Persons: the Father, the Son and the Holy Spirit.",
     remember: "Three divine Persons - Father, Son and Holy Spirit - in one God.",
+    rememberGaps: {
+      id: 'rem-2',
+      sentenceWithBlanks: "[Three] divine Persons - Father, Son and Holy Spirit - in [one God].",
+      gaps: [
+        {
+          index: 0,
+          word: "Three",
+          options: ["Three", "One", "Two", "Four"],
+          hint: "How many divine Persons."
+        },
+        {
+          index: 1,
+          word: "one God",
+          options: ["one God", "three gods", "many gods", "no god"],
+          hint: "Not three gods, but one."
+        },
+      ]
+    },
     teachingParagraphs: [
       "There is only one God. He is eternal: he has always existed and will never cease to exist. God is perfectly good, holy, all-knowing and almighty. He created everything and holds it in being.",
       "God has shown us a wonderful mystery about himself. He is the Most Holy Trinity: Father, Son and Holy Spirit.",
@@ -95,6 +131,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "Creation, Sin and the Promise of Salvation",
     purpose: "God made us for goodness and friendship with him; when sin entered the world, he promised a Saviour.",
     remember: "Jesus Christ, who died and rose to bring us back to God.",
+    rememberGaps: {
+      id: 'rem-3',
+      sentenceWithBlanks: "Jesus Christ, who [died and rose] to bring us [back to God].",
+      gaps: [
+        {
+          index: 0,
+          word: "died and rose",
+          options: ["died and rose", "taught and healed", "travelled and preached", "was born and baptised"],
+          hint: "The heart of the Gospel."
+        },
+        {
+          index: 1,
+          word: "back to God",
+          options: ["back to God", "back to the Law", "back to the Temple", "back to ourselves"],
+          hint: "What his death and rising achieved."
+        },
+      ]
+    },
     teachingParagraphs: [
       "God made the world from nothing, and everything he created was good. He made human beings in his image, able to know him, choose freely and love. Our first parents, Adam and Eve, were created in friendship with God.",
       "But our first parents disobeyed God. This is called the Fall. Human nature was wounded by their sin, and the whole human family needs God's saving grace. The condition of being born without the original holiness God intended is called original sin. It is not a naughty choice made by a baby.",
@@ -137,6 +191,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "Jesus Christ Our Saviour",
     purpose: "Jesus is the eternal Son of God made man, who saves us through his Cross and Resurrection.",
     remember: "Through his suffering, death and Resurrection.",
+    rememberGaps: {
+      id: 'rem-4',
+      sentenceWithBlanks: "Through his [suffering], death and [Resurrection].",
+      gaps: [
+        {
+          index: 0,
+          word: "suffering",
+          options: ["suffering", "teaching", "silence", "fasting"],
+          hint: "What he endured for us."
+        },
+        {
+          index: 1,
+          word: "Resurrection",
+          options: ["Resurrection", "Ascension", "Transfiguration", "Pentecost"],
+          hint: "The victory on the third day."
+        },
+      ]
+    },
     teachingParagraphs: [
       "God promised to send a Saviour, and the Saviour is Jesus Christ. Jesus is the eternal Son of God, who has always existed with the Father and the Holy Spirit.",
       "By the power of the Holy Spirit, the Son of God became man in the womb of the Blessed Virgin Mary. Mary is called the Mother of God because the child she bore is the eternal Son of God made man. She did not create his divinity.",
@@ -179,6 +251,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "My Christian Baptism",
     purpose: "In my valid Baptism, Jesus forgave sin, gave me new life and made me his own for ever.",
     remember: "The sacrament of new birth through water and the Holy Spirit.",
+    rememberGaps: {
+      id: 'rem-5',
+      sentenceWithBlanks: "The sacrament of [new birth] through [water] and the Holy Spirit.",
+      gaps: [
+        {
+          index: 0,
+          word: "new birth",
+          options: ["new birth", "a new name", "a new school", "a new family"],
+          hint: "What Baptism gives."
+        },
+        {
+          index: 1,
+          word: "water",
+          options: ["water", "oil", "bread", "fire"],
+          hint: "The sign used with the words."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Baptism is the doorway to Christian life. Jesus told his Apostles to make disciples of all nations and baptise them in the name of the Father, and of the Son, and of the Holy Spirit.",
       "At Baptism, true water is used with the words Christ gave his Church. God acts in the sacrament. Baptism is not simply a lovely welcome ceremony or a sign of what someone already feels. It truly gives a new beginning.",
@@ -221,6 +311,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "Sacred Scripture, Tradition and the Creed",
     purpose: "God reveals his truth through Sacred Scripture and Sacred Tradition, faithfully handed on by the Church.",
     remember: "In Sacred Scripture and Sacred Tradition, one deposit of faith.",
+    rememberGaps: {
+      id: 'rem-6',
+      sentenceWithBlanks: "In [Sacred Scripture] and [Sacred Tradition], one deposit of faith.",
+      gaps: [
+        {
+          index: 0,
+          word: "Sacred Scripture",
+          options: ["Sacred Scripture", "the Creeds alone", "human wisdom", "the newspapers"],
+          hint: "God's word written."
+        },
+        {
+          index: 1,
+          word: "Sacred Tradition",
+          options: ["Sacred Tradition", "private opinion", "local custom", "modern fashion"],
+          hint: "The faith handed down."
+        },
+      ]
+    },
     teachingParagraphs: [
       "God wants us to know him. He has spoken to humanity, acted in history and revealed himself most fully through his Son, Jesus Christ.",
       "The Holy Bible is Sacred Scripture: the written word of God. The books of the Bible were written by human authors under the inspiration of the Holy Spirit. When we hear Scripture proclaimed at Mass, God is speaking to his people.",
@@ -264,6 +372,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "The Catholic Church and Full Communion",
     purpose: "Jesus founded one Church, and full communion unites Catholics in faith, sacraments and Church life.",
     remember: "To share fully in the Catholic faith, sacraments and unity of the Church.",
+    rememberGaps: {
+      id: 'rem-7',
+      sentenceWithBlanks: "To share fully in the Catholic faith, [sacraments] and [unity] of the Church.",
+      gaps: [
+        {
+          index: 0,
+          word: "sacraments",
+          options: ["sacraments", "rules", "traditions", "meetings"],
+          hint: "Where grace is given."
+        },
+        {
+          index: 1,
+          word: "unity",
+          options: ["unity", "division", "independence", "silence"],
+          hint: "One body, not many."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Jesus founded his Church and entrusted his teaching and sacraments to the Apostles. He gave Saint Peter a special responsibility for the unity of the Church. The Pope is the Bishop of Rome and successor of Saint Peter; the bishops are successors of the Apostles.",
       "We say that the Church is one, holy, catholic and apostolic. She is one in the faith and sacraments Christ gave.",
@@ -307,6 +433,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "Prayer, Sunday Mass and Christian Life",
     purpose: "Jesus calls me to pray, worship with his Church on Sunday and show my faith through love.",
     remember: "The Holy Sacrifice of the Mass.",
+    rememberGaps: {
+      id: 'rem-8',
+      sentenceWithBlanks: "The [Holy Sacrifice] of [the Mass].",
+      gaps: [
+        {
+          index: 0,
+          word: "Holy Sacrifice",
+          options: ["Holy Sacrifice", "a holy meal only", "a holy reading", "a holy song"],
+          hint: "What the Mass truly is."
+        },
+        {
+          index: 1,
+          word: "the Mass",
+          options: ["the Mass", "the Rosary", "Benediction", "the Office"],
+          hint: "The name we give it."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Prayer is raising our minds and hearts to God. We can speak to him at any time and in any place. We adore him, thank him, ask forgiveness, pray for others and ask for what we need.",
       "Jesus taught us the Our Father. When we pray it, we call God our Father, ask for his Kingdom and his will, seek what we need and learn to forgive. We can also pray through the Psalms, listen to Scripture and speak to Jesus in our own words.",
@@ -349,6 +493,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "The Commandments, Sin and Conversion",
     purpose: "God shows me how to love; when I sin, he calls me to repent and begin again.",
     remember: "Be sorry, ask God's forgiveness, seek to make amends and turn back to him.",
+    rememberGaps: {
+      id: 'rem-9',
+      sentenceWithBlanks: "Be [sorry], ask God's forgiveness, seek to [make amends] and turn back to him.",
+      gaps: [
+        {
+          index: 0,
+          word: "sorry",
+          options: ["sorry", "angry", "afraid", "confused"],
+          hint: "The first movement of repentance."
+        },
+        {
+          index: 1,
+          word: "make amends",
+          options: ["make amends", "forget it", "blame others", "wait and see"],
+          hint: "Putting right what we can."
+        },
+      ]
+    },
     teachingParagraphs: [
       "God made us to love him and our neighbour. The Ten Commandments show us how to do that. They teach us to worship God, honour our parents, respect life, speak truthfully, be faithful and pure, and care for what belongs to others.",
       "Jesus teaches us the greatest commandments: love God with all our heart and love our neighbour as ourselves. He also gives us the Beatitudes, teaching us humility, mercy, purity and peace.",
@@ -391,6 +553,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "Jesus Forgives Me in Confession",
     purpose: "In Confession, Jesus forgives my sins through the priest and gives me grace to begin again.",
     remember: "To receive Jesus' forgiveness for sins committed after Baptism.",
+    rememberGaps: {
+      id: 'rem-10',
+      sentenceWithBlanks: "To receive Jesus' [forgiveness] for sins committed after [Baptism].",
+      gaps: [
+        {
+          index: 0,
+          word: "forgiveness",
+          options: ["forgiveness", "a warning", "a punishment", "a reminder"],
+          hint: "What Jesus gives in the sacrament."
+        },
+        {
+          index: 1,
+          word: "Baptism",
+          options: ["Baptism", "Confirmation", "the Eucharist", "Ordination"],
+          hint: "Sins before it are washed away."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Jesus loves sinners and calls them back to friendship with God. After rising from the dead, he gave the Apostles authority to forgive sins in his name. Bishops and priests continue this ministry in the Sacrament of Penance and Reconciliation.",
       "Because you are already baptised, you prepare to receive First Confession before Reception into full communion.",
@@ -434,6 +614,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "The Holy Sacrifice of the Mass",
     purpose: "At Mass, Jesus makes his one sacrifice on the Cross present to his Church sacramentally.",
     remember: "The sacramental making-present of the one Sacrifice of Christ on the Cross.",
+    rememberGaps: {
+      id: 'rem-11',
+      sentenceWithBlanks: "The sacramental [making-present] of the one Sacrifice of Christ on [the Cross].",
+      gaps: [
+        {
+          index: 0,
+          word: "making-present",
+          options: ["making-present", "remembering only", "repeating", "explaining"],
+          hint: "Not a repeat, but a re-presenting."
+        },
+        {
+          index: 1,
+          word: "the Cross",
+          options: ["the Cross", "the Manger", "the Upper Room", "the Tomb"],
+          hint: "Where the one sacrifice was offered."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Jesus loves us so much that he gave himself on the Cross. His sacrifice was offered once for all. He does not need to die again. The offering he made is perfect and never loses its saving power.",
       "On the night before he died, Jesus celebrated the Last Supper with his Apostles. He took bread and said that it was his Body. He took the chalice and spoke of his Blood. He told them to do this in memory of him. In this way he entrusted the Eucharist to his Church.",
@@ -476,6 +674,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "The Holy Eucharist and the Real Presence",
     purpose: "The Holy Eucharist is truly Jesus Christ: his Body, Blood, Soul and Divinity.",
     remember: "Jesus Christ himself, Body, Blood, Soul and Divinity.",
+    rememberGaps: {
+      id: 'rem-12',
+      sentenceWithBlanks: "Jesus Christ [himself], [Body, Blood, Soul and Divinity].",
+      gaps: [
+        {
+          index: 0,
+          word: "himself",
+          options: ["himself", "a symbol of him", "a memory of him", "a picture of him"],
+          hint: "Not a symbol of him."
+        },
+        {
+          index: 1,
+          word: "Body, Blood, Soul and Divinity",
+          options: ["Body, Blood, Soul and Divinity", "bread and wine only", "a sign of grace", "a spiritual idea"],
+          hint: "All of him, under the appearances."
+        },
+      ]
+    },
     teachingParagraphs: [
       "At the Last Supper, Jesus took bread and said, \"This is my body.\" He also gave the chalice to his Apostles and spoke of his Blood. He meant what he said. The Eucharist is not merely a symbol that reminds us of him.",
       "During Mass, the priest speaks the words of consecration within the Eucharistic Prayer. By the power of the Holy Spirit and the words of Christ, the whole substance of bread and wine becomes the Body and Blood of Jesus.",
@@ -518,6 +734,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "The Profession of Faith and Reception",
     purpose: "I will freely profess the Catholic faith and be received into the full communion of the Church.",
     remember: "My free and sincere yes to the Catholic faith received from Jesus Christ.",
+    rememberGaps: {
+      id: 'rem-13',
+      sentenceWithBlanks: "My [free and sincere] [yes] to the Catholic faith received from Jesus Christ.",
+      gaps: [
+        {
+          index: 0,
+          word: "free and sincere",
+          options: ["free and sincere", "forced", "half-hearted", "secret"],
+          hint: "How the yes must be given."
+        },
+        {
+          index: 1,
+          word: "yes",
+          options: ["yes", "maybe", "later", "no"],
+          hint: "What reception is."
+        },
+      ]
+    },
     teachingParagraphs: [
       "You are already baptised, so you are not going to be baptised again. The Catholic Church honours your first Baptism as a real gift from Jesus.",
       "You are preparing instead to enter the full communion of the Catholic Church. Full communion is a sharing in Catholic faith, sacramental life and communion with the Pope and bishops.",
@@ -561,6 +795,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "Confirmation and the Gift of the Holy Spirit",
     purpose: "Confirmation strengthens the grace of my Baptism and seals me with the gift of the Holy Spirit.",
     remember: "To be strengthened and sealed by the Holy Spirit for life in Christ.",
+    rememberGaps: {
+      id: 'rem-14',
+      sentenceWithBlanks: "To be strengthened and [sealed] by the [Holy Spirit] for life in Christ.",
+      gaps: [
+        {
+          index: 0,
+          word: "sealed",
+          options: ["sealed", "reminded", "warned", "taught"],
+          hint: "Marked with the Spirit."
+        },
+        {
+          index: 1,
+          word: "Holy Spirit",
+          options: ["Holy Spirit", "a saint", "an angel", "the priest"],
+          hint: "Who strengthens us."
+        },
+      ]
+    },
     teachingParagraphs: [
       "You received the Holy Spirit at Baptism. God made you his child and gave you sanctifying grace. In Confirmation the same Holy Spirit strengthens baptismal grace and gives a special outpouring of his gifts.",
       "Jesus promised the Holy Spirit to his Apostles. At Pentecost, the Spirit gave them courage to proclaim Christ and live as his witnesses. The Holy Spirit continues to strengthen Christians today.",
@@ -605,6 +857,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "Receiving First Holy Communion",
     purpose: "In Holy Communion, the risen Jesus gives himself to me as the Bread of Life.",
     remember: "Amen - I believe.",
+    rememberGaps: {
+      id: 'rem-15',
+      sentenceWithBlanks: "[Amen] - [I believe].",
+      gaps: [
+        {
+          index: 0,
+          word: "Amen",
+          options: ["Amen", "Alleluia", "Hosanna", "Glory be"],
+          hint: "The word spoken when receiving."
+        },
+        {
+          index: 1,
+          word: "I believe",
+          options: ["I believe", "I hope", "I obey", "I agree"],
+          hint: "What Amen means here."
+        },
+      ]
+    },
     teachingParagraphs: [
       "You are preparing to receive a wonderful gift: Jesus Christ himself in Holy Communion. He gives us his Body, Blood, Soul and Divinity under the appearances of bread and wine.",
       "When you are received into full communion with the Catholic Church, and have received Confirmation where appropriate, you will normally receive your First Holy Communion during the same celebration. The priest will explain the order for your particular day.",
@@ -647,6 +917,24 @@ export const CONVERSATIONS_DATA: Conversation[] = [
     title: "Living in Full Communion",
     purpose: "Reception begins a lifelong Catholic life of Sunday Mass, prayer, the sacraments and love.",
     remember: "By Sunday Mass, prayer, the sacraments, learning the faith and loving others.",
+    rememberGaps: {
+      id: 'rem-16',
+      sentenceWithBlanks: "By [Sunday Mass], prayer, the sacraments, learning the faith and [loving others].",
+      gaps: [
+        {
+          index: 0,
+          word: "Sunday Mass",
+          options: ["Sunday Mass", "private prayer only", "a monthly Mass", "a school assembly"],
+          hint: "The weekly heart of the life."
+        },
+        {
+          index: 1,
+          word: "loving others",
+          options: ["loving others", "keeping the rules", "reading widely", "giving money"],
+          hint: "The proof of the faith."
+        },
+      ]
+    },
     teachingParagraphs: [
       "Coming into full communion is not the end of your journey with Jesus. It is a new beginning in the Catholic Church, where you will keep growing in faith, hope and charity for the rest of your life.",
       "You are called to live as a disciple every day. The centre of your week is Sunday Mass. You will hear God's word, worship the Father through Jesus Christ and receive Holy Communion when properly prepared. The Eucharist helps you grow in love and holiness.",
